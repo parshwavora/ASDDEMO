@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
 			maxlen -= n;
 			len += n;
 
-			printf("received: '%s'\n", buffer);
+			printf("received: '%s'\n\n", buffer);
 
 			
 			send(sock, buffer, len, 0);
